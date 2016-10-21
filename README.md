@@ -1,5 +1,14 @@
 # O dia na vida de um programador que usa git e Sourcetree
 ---
+
+- [Fluxo de trabalho](#)
+	- [1. Clone (fresh start) / Pull (update)](#)
+	- [2. Branch bugXX](#)
+	- [3. trabalho; Commit (repete n vezes)](#)
+	- [4. Rebase master (caso necessário)](#)
+	- [5. Rebase branch bugXX](#)
+- [Configurando git para usar SmartMerge](#)
+
 ## Fluxo de trabalho
 
 Vou descrever as operações básicas para o dia-a-dia comum de um usuário de git e Sourcetree no desenvolvimento de software. A sequência padrão de ações é:
