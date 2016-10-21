@@ -1,5 +1,7 @@
-## O dia na vida de um programador que usa git e Sourcetree
+# O dia na vida de um programador que usa git e Sourcetree
 ---
+## Fluxo de trabalho
+
 Vou descrever as operações básicas para o dia-a-dia comum de um usuário de git e Sourcetree no desenvolvimento de software. A sequência padrão de ações é:
 ### 1. `Clone` (fresh start) / `Pull` (update)
 - Use sempre `Clone` para iniciar um repositório existente.
@@ -27,7 +29,6 @@ Vou descrever as operações básicas para o dia-a-dia comum de um usuário de g
 ![Atualizando o Master](https://raw.githubusercontent.com/otubo/unity_smartmerge_test/master/pictures/rebase1.png)
 
 ## Configurando git para usar SmartMerge
----
 ```
     [merge]
     tool = unityyamlmerge
