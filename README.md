@@ -1,4 +1,5 @@
-# O dia na vida de um programador que usa git e Sourcetree
+[![Build Status](https://travis-ci.org/otubo/unity_smartmerge_test.svg?branch=master)](https://travis-ci.org/otubo/unity_smartmerge_test)
+# Um dia na vida de um programador que usa git e Sourcetree 
 ---
 
 - [Fluxo de trabalho](#)
