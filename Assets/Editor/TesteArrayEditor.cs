@@ -20,10 +20,11 @@ public class TesteArrayEditor : Editor {
             for (int x = 0; x < 10; x++)
             {
                 string text = "";
-                if (script.Info[x, y] == 1) text = "X";
+                if (script.Info[y].line[x] == 1) text = "X";
                 if(GUILayout.Button(text,GUILayout.Width(18)))
                 {
-                    script.Info[x, y] = 1 - script.Info[x, y];
+                    script.Info[y].line[x] = 1 - script.Info[y].line[x];
+                    EditorApplication.MarkSceneDirty();
                 }
             }
             GUILayout.EndHorizontal();
